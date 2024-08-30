@@ -1,0 +1,9 @@
+{
+    "REACT_APP_GET_TASKS": "http://localhost:8000/api/task",
+    "REACT_APP_CREATE_TASK": "http://localhost:8000/api/task",
+    "REACT_APP_UPDATE_TASK": "http://localhost:8000/api/task/",
+    "REACT_APP_DELETE_TASK": "http://localhost:8000/api/task/",
+
+    "REACT_APP_VALIDATE_ACCESS": "http://localhost:8000/api/auth/login",
+    "REACT_APP_LOGOUT": "http://localhost:8000/api/auth/logout"
+}

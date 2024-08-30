@@ -93,8 +93,14 @@ function App() {
     <>
       {isAuth && <NavBar />}
 
-      {isAuth && <Button onClick={onLogout}>Cerrar sesión</Button>}
-
+      {isAuth && (
+        <div className="logout-button-container">
+          <Button onClick={onLogout} variant="contained">
+            Cerrar sesión
+          </Button>
+        </div>
+      )}
+      
       <div className='main-container'>
         {isAuth ? <><Button variant="contained" onClick={handleClickOpenNew}>+ Nueva</Button>
           <FormTask

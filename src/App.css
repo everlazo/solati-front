@@ -38,3 +38,10 @@
 .read-the-docs {
   color: #888;
 }
+
+.logout-button-container {
+  position: fixed;
+  top: 10px; /* Ajusta según sea necesario */
+  right: 10px; /* Ajusta según sea necesario */
+  z-index: 1000; /* Asegúrate de que esté encima de otros elementos */
+}

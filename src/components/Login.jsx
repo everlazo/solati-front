@@ -48,7 +48,7 @@ export default function Login({
               id="password"
               name="password"
               label="Contraseña"
-              type="text"
+              type="password"
               fullWidth
             />
           </div>
